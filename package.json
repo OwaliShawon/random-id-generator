@@ -1,6 +1,6 @@
 {
   "name": "random-id-generator-with-prefix-suffix",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An id genertor with prefix suffix and lenght",
   "main": "index.js",
   "scripts": {
