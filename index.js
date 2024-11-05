@@ -1,3 +1,3 @@
-const { randomCodeId } = require("./random");
+const { randomCodeId ,timestampedId} = require("./random");
 
-module.exports = { randomCodeId };
+module.exports = { randomCodeId, timestampedId };

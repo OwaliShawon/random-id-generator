@@ -29,4 +29,16 @@ function randomCodeId(length, prefix = "", suffix = "", type = "utf8") {
   return `${prefix}${result}${suffix}`;
 }
 
-module.exports = { randomCodeId };
+/**
+ * Function for timestamp-based IDs
+ * @param {string} prefix
+ * @param {string} suffix
+ * @returns {string}
+ */
+function timestampedId(prefix = "", suffix = "") {
+  const timestamp = Date.now().toString(36);
+  const random = Math.random().toString(36).substring(2, 5);
+  return `${prefix}${timestamp}${random}${suffix}`;
+}
+
+module.exports = { randomCodeId, timestampedId };
