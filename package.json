@@ -1,11 +1,27 @@
 {
   "name": "random-id-generator-with-prefix-suffix",
   "version": "1.0.2",
-  "description": "An id genertor with prefix suffix and lenght",
+  "description": "An ID generator with customizable prefix, suffix, and length.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OwaliShawon/random-id-generator.git"
+  },
+  "keywords": [
+    "id",
+    "generator",
+    "prefix",
+    "suffix",
+    "random",
+    "unique-id"
+  ],
   "author": "Owali Ullah Shawon",
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "node": ">=12.0.0"
+  }
 }
